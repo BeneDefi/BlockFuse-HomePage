@@ -2,7 +2,12 @@
  export default {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'serif'],
+      },
+
+    },
   },
   plugins: [],
 }
